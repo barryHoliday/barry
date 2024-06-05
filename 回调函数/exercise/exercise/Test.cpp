@@ -3,25 +3,27 @@
 #include "Test.h"
 using namespace std;
 
-//Ğ¡·½ĞèÌáÇ°ÉêÃ÷
+//å°æ–¹éœ€æå‰ç”³æ˜
 int add(int a, int b);
 
-//Ğ¡·½¸ºÔğµÄ½Ó¿Úº¯Êı
+//å°æ–¹è´Ÿè´£çš„æ¥å£å‡½æ•°
 int Add(int A, int B)
 {
 	return add(A, B);
 }
 
-//Ğ¡Ã÷Ğ´µÄ¾ßÌåº¯ÊıÊµÏÖ
+//å°æ˜å†™çš„å…·ä½“å‡½æ•°å®ç°
 int add(int a, int b)
 {
 	return a + b;
 }
 
+//ä¸»å‡½æ•°
 int main()
 {
 	int a = 3;
 	int b = 4;
-	cout << "µ÷ÓÃAddº¯ÊıÊä³ö½á¹ûÎª£º" << Add(a, b) << endl;
+	cout << "è°ƒç”¨Addå‡½æ•°è¾“å‡ºç»“æœä¸ºï¼š" << Add(a, b) << endl;
 	system("pause");
 }
+
